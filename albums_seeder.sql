@@ -1,5 +1,7 @@
 USE codeup_test_db;
 
+TRUNCATE albums;
+
 INSERT INTO albums (id, artist, name, release_date, genre, sales)
 VALUES
       (3, 'AC/DC', 'Back in Black', '1980-01-01 12:00:00', 'Hard rock', 2600000),
