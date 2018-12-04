@@ -9,3 +9,7 @@ VALUES
       (5, 'The Beatles', 'Sgt. Pepper\'s Lonely Hearts Club Band', '1967-01-01 12:00:00', 'Rock', 3400000),
       (6, 'Nirvana', 'Nevermind',	'1991-01-01 12:00:00', 'Alternative rock', 2900000),
       (7, 'Madonna', 'The Immaculate Collection',	'1990-01-01 12:00:00', 'Pop', 1200000);
+
+SELECT * FROM albums;
+
+DESCRIBE albums;

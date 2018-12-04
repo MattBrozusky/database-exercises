@@ -6,5 +6,6 @@ CREATE TABLE albums(
   name VARCHAR(50),
   release_date DATETIME,
   sales FLOAT(7),
-  genre VARCHAR(25)
+  genre VARCHAR(25),
+  UNIQUE (artist, name)
 );
