@@ -9,3 +9,8 @@ WHERE hire_date IN (
     FROM employees
     WHERE emp_no = 101010
 );
+
+
+SELECT first_name, last_name
+FROM employees
+ORDER BY last_name;
